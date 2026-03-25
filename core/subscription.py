@@ -38,14 +38,36 @@ class SubscriptionFetcher:
         return None
 
     async def fetch_single(self, url: str, mirror: str):
+        target = f"{mirror}{url}" if mirror else url
         try:
-            target = f"{mirror}{url}" if mirror else url
             async with aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(total=self.timeout)) as session:
                 async with session.get(target) as resp:
                     if resp.status == 200:
-                        return await resp.text()
-        except Exception:
-            return None
+                        return {
+                            "source_url": url,
+                            "target_url": target,
+                            "ok": True,
+                            "status": resp.status,
+                            "error": "",
+                            "content": await resp.text(),
+                        }
+                    return {
+                        "source_url": url,
+                        "target_url": target,
+                        "ok": False,
+                        "status": resp.status,
+                        "error": f"HTTP {resp.status}",
+                        "content": "",
+                    }
+        except Exception as e:
+            return {
+                "source_url": url,
+                "target_url": target,
+                "ok": False,
+                "status": 0,
+                "error": f"{type(e).__name__}: {e}",
+                "content": "",
+            }
 
     # ======================
     # 【多线程并发拉取】
@@ -53,6 +75,4 @@ class SubscriptionFetcher:
     async def fetch_all(self, url_list: List[str]):
         mirror = await self.get_valid_mirror()
         tasks = [self.fetch_single(url, mirror) for url in url_list]
-        results = await asyncio.gather(*tasks)
-        valid_contents = [res for res in results if res]
-        return valid_contents
+        return await asyncio.gather(*tasks)

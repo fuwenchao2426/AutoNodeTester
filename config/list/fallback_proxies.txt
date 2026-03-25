@@ -1,8 +1,16 @@
 # GitHub 镜像（优先）
-https://mirror.ghproxy.com/
 https://download.serein.cc/
 https://ghproxy.net/
+https://ghproxy.com/
+https://ghfile.geekertao.top/
+https://github.dpik.top/
+https://gh.felicity.ac.cn/
+https://moeyy.cn/gh-proxy/
+https://gh.api.99988866.xyz/
+https://ghproxy.homeboyc.cn/
+https://ghproxy.net/
 https://ghproxy.sinner999.eu.org/
+https://mirror.ghproxy.com/
 
 # Socks5 自救代理
 socks5://103.73.3.100:1080
