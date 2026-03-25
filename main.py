@@ -10,7 +10,7 @@ from core.delay_check import DelayChecker
 # ── 临时调试开关：True = 跳过拉取订阅，直接从 cache/unique_nodes.yaml 加载 ──
 USE_CACHED_NODES = False
 PRECHECK_MAX_THREAD = 300
-DELAY_MAX_THREAD = 80
+DELAY_MAX_THREAD = 30
 
 async def clean_xray():
     try:

@@ -23,7 +23,7 @@ env/
 Thumbs.db
 
 # Runtime logs
-*.log
+delay_check.log
 
 # Local binaries
 xray.exe
