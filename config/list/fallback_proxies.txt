@@ -1,0 +1,18 @@
+# GitHub 镜像（优先）
+https://mirror.ghproxy.com/
+https://download.serein.cc/
+https://ghproxy.net/
+https://ghproxy.sinner999.eu.org/
+
+# Socks5 自救代理
+socks5://103.73.3.100:1080
+socks5://45.136.231.117:1080
+socks5://185.39.102.114:1080
+
+# HTTP 自救代理
+http://47.91.88.112:3128
+http://123.124.14.25:8888
+http://88.214.220.88:3128
+
+# 本地备用
+# socks5://127.0.0.1:7890

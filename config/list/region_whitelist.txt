@@ -1,0 +1,9 @@
+US
+SG
+HK
+JP
+KR
+GB
+DE
+CA
+FR

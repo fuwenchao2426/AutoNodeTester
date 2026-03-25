@@ -1,0 +1,4488 @@
+proxies:
+- name: AE_8cad3_0001
+  server: 31.58.50.225
+  port: 8443
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  skip-cert-verify: false
+  servername: snippet.chinav.eu.cc
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.chinav.eu.cc
+  udp: true
+- name: AT_8cad3_0002
+  server: 152.53.80.40
+  port: 443
+  type: vless
+  uuid: e6567a1e-260f-4b0e-8de3-e2e12f90e854
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  servername: sha.helper-internet.com
+  reality-opts:
+    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+    short-id: ff776ff77be48b88
+  udp: true
+- name: AU_8cad3_0003
+  server: 159.13.36.110
+  port: 2443
+  type: vless
+  uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: safari
+  servername: www.microsoft.com
+  reality-opts:
+    public-key: uzRnmrb_UXbDNz5_IeFrC-PJfnuoUIsyaSEy1FgdPho
+    short-id: ae377cba
+  udp: true
+- name: AU_8cad3_0004
+  server: enhanced-crayfish.rooster465.autos
+  port: 443
+  type: trojan
+  password: IL37892054
+  sni: enhanced-crayfish.rooster465.autos
+  skip-cert-verify: false
+  udp: true
+- name: CH_8cad3_0005
+  server: 138.124.104.221
+  port: 443
+  type: vless
+  uuid: fd37be2f-f8d1-47de-97e8-13c28107d31e
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  servername: pol2.frostbot.ru
+  reality-opts:
+    public-key: iCY6H8CpnIfqmIkEABduJEAeJrnYS089R1-jKEyVp3w
+    short-id: e043995937
+  udp: true
+- name: CZ_8cad3_0006
+  server: 194.87.245.253
+  port: 443
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  skip-cert-verify: false
+  servername: snippet.danfeng.kozow.com
+  network: ws
+  ws-opts:
+    path: /danfeng?ed=2560
+    headers:
+      Host: snippet.danfeng.kozow.com
+  udp: true
+- name: DE_8cad3_0007
+  server: 45.145.42.170
+  port: 8005
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  tls: true
+  skip-cert-verify: true
+  servername: sub.mot.ip-ddns.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sub.mot.ip-ddns.com
+  udp: true
+- name: FI_8cad3_0008
+  server: 94.156.116.254
+  port: 51198
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: random
+  servername: snippet.fgfw.de5.net
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.fgfw.de5.net
+  udp: true
+- name: GB_8cad3_0009
+  server: 152.67.158.177
+  port: 2443
+  type: vless
+  uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: 498LE1B8NFnfagrOnGGmuh80KqgKXMKiHbgcpxRqBB0
+    short-id: 2d989d13dba1
+  udp: true
+- name: HK_8cad3_0010
+  server: 203.168.131.110
+  port: 3389
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: random
+  servername: snippet.chinav.eu.cc
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /danfengfp=random
+    headers:
+      Host: snippet.chinav.eu.cc
+  udp: true
+- name: IE_8cad3_0012
+  server: 20.67.254.104
+  port: 443
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: random
+  servername: snippet.chinat.eu.cc
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.chinat.eu.cc
+  udp: true
+- name: IR_8cad3_0013
+  server: 62.60.237.240
+  port: 443
+  type: vless
+  uuid: d4de1f64-bf3c-4d97-9663-0091f8c07359
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  servername: logggg.nammknammknammknammknammkb2.ir
+  reality-opts:
+    public-key: RravQN06gzsNsm5ojEhZGrxBgLGEpqEThtHEltdjpBk
+    short-id: b3d76d
+  udp: true
+- name: JP_8cad3_0014
+  server: 103.214.168.247
+  port: 39738
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: random
+  servername: snippet.fgfw.de5.net
+  network: ws
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.fgfw.de5.net
+  udp: true
+- name: JP_8cad3_0015
+  server: 217.142.227.120
+  port: 2443
+  type: vless
+  uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: safari
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: u8FFKKLif3K14_SqiDEF834Rpp4zETdOYt2mFrrsSnQ
+    short-id: b15116d00de0
+  udp: true
+- name: KR_8cad3_0016
+  server: krp01.jumperservice.com
+  port: 19001
+  type: vless
+  uuid: 455fc271-3ee2-493b-8c75-9324b4851e2f
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  servername: addons.mozilla.org
+  reality-opts:
+    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
+  udp: true
+- name: KR_8cad3_0018
+  server: 220.71.1.32
+  port: 20201
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  tls: true
+  skip-cert-verify: true
+  client-fingerprint: random
+  servername: itz4m3m5v7.chinav.indevs.in
+  network: ws
+  ws-opts:
+    path: /danfeng?ed=2560
+    headers:
+      Host: itz4m3m5v7.chinav.indevs.in
+  udp: true
+- name: KR_8cad3_0019
+  server: 211.193.169.223
+  port: 37810
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: random
+  servername: snippet.fgfw.de5.net
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.fgfw.de5.net
+  udp: true
+- name: KR_8cad3_0020
+  server: 121.174.43.148
+  port: 12345
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: random
+  servername: snippet.chinat.eu.cc
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.chinat.eu.cc
+  udp: true
+- name: KR_8cad3_0021
+  server: 211.110.32.47
+  port: 20000
+  type: trojan
+  password: trojan
+  sni: jflsjlaf.pages.dev
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jflsjlaf.pages.dev
+  udp: true
+- name: KR_8cad3_0022
+  server: 222.113.18.207
+  port: 16993
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  servername: snippet.fgfw.de5.net
+  network: ws
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.fgfw.de5.net
+  udp: true
+- name: KR_8cad3_0023
+  server: 106.251.70.75
+  port: 10162
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: random
+  servername: snippet.chinav.eu.cc
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.chinav.eu.cc
+  udp: true
+- name: KR_8cad3_0024
+  server: 175.199.169.221
+  port: 50006
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: random
+  servername: snippet.fgfw.de5.net
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.fgfw.de5.net
+  udp: true
+- name: KR_8cad3_0025
+  server: 121.152.61.147
+  port: 11371
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  servername: snippet.fgfw.de5.net
+  network: ws
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.fgfw.de5.net
+  udp: true
+- name: KR_8cad3_0026
+  server: 118.35.208.37
+  port: 11434
+  type: trojan
+  password: trojan
+  sni: jflsjlaf.pages.dev
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jflsjlaf.pages.dev
+  udp: true
+- name: KR_8cad3_0027
+  server: 140.238.11.149
+  port: 2443
+  type: vless
+  uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: qq
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: BmqEE16ux216I-WcezMLroZxIoV09PfeMS-xhyfWTVs
+    short-id: ff93655f5d
+  udp: true
+- name: MD_8cad3_0028
+  server: 89.221.225.71
+  port: 443
+  type: trojan
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  skip-cert-verify: true
+  udp: true
+- name: PL_8cad3_0029
+  server: outgoing-ladybird.rooster465.autos
+  port: 443
+  type: trojan
+  password: IL37892054
+  sni: outgoing-ladybird.rooster465.autos
+  skip-cert-verify: false
+  udp: true
+- name: PL_8cad3_0030
+  server: fluent-stingray.crayfish192.xyz
+  port: 443
+  type: trojan
+  password: IL37892054
+  skip-cert-verify: true
+  udp: true
+- name: RU_8cad3_0033
+  server: 193.9.49.65
+  port: 443
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  tls: true
+  skip-cert-verify: false
+  servername: r.icy.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: r.icy.de5.net
+  udp: true
+- name: SG_8cad3_0034
+  server: 185.151.146.40
+  port: 443
+  type: trojan
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  skip-cert-verify: true
+  udp: true
+- name: SG_8cad3_0035
+  server: 68.183.227.4
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: TW_8cad3_0036
+  server: 85.237.206.249
+  port: 443
+  type: trojan
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  skip-cert-verify: true
+  udp: true
+- name: US_8cad3_0037
+  server: www.npmjs.com
+  port: 2095
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  tls: false
+  skip-cert-verify: false
+  client-fingerprint: randomized
+  servername: fuckingfangbinxing.cnm-fangbinxing-nmsl-ccc.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fuckingfangbinxing.cnm-fangbinxing-nmsl-ccc.workers.dev
+  udp: true
+- name: US_8cad3_0038
+  server: www.udemy.com
+  port: 2095
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  tls: false
+  skip-cert-verify: false
+  client-fingerprint: randomized
+  servername: fuckingfangbinxing.cnm-fangbinxing-nmsl-ccc.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fuckingfangbinxing.cnm-fangbinxing-nmsl-ccc.workers.dev
+  udp: true
+- name: US_8cad3_0039
+  server: 54.46.72.234
+  port: 8025
+  type: trojan
+  password: trojan
+  sni: jflsjlaf.pages.dev
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jflsjlaf.pages.dev
+  udp: true
+- name: US_8cad3_0040
+  server: 172.64.229.85
+  port: 443
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  tls: true
+  skip-cert-verify: false
+  servername: r.icy.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: r.icy.de5.net
+  udp: true
+- name: US_8cad3_0041
+  server: ns.cloudflare.com
+  port: 2095
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  tls: false
+  skip-cert-verify: false
+  client-fingerprint: randomized
+  servername: fuckingfangbinxing.cnm-fangbinxing-nmsl-ccc.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fuckingfangbinxing.cnm-fangbinxing-nmsl-ccc.workers.dev
+  udp: true
+- name: US_8cad3_0042
+  server: www.wto.org
+  port: 2095
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  tls: false
+  skip-cert-verify: false
+  client-fingerprint: randomized
+  servername: fuckingfangbinxing.cnm-fangbinxing-nmsl-ccc.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fuckingfangbinxing.cnm-fangbinxing-nmsl-ccc.workers.dev
+  udp: true
+- name: US_8cad3_0043
+  server: 162.159.38.78
+  port: 443
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  tls: true
+  skip-cert-verify: false
+  servername: r.icy.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: r.icy.de5.net
+  udp: true
+- name: US_8cad3_0044
+  server: 162.159.24.111
+  port: 443
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  tls: true
+  skip-cert-verify: false
+  servername: r.icy.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: r.icy.de5.net
+  udp: true
+- name: US_8cad3_0045
+  server: malaysia01.jumperservice.com
+  port: 19001
+  type: vless
+  uuid: d13545be-5c06-4283-cdf3-a364201bf9fb
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  servername: www.speedtest.net
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  udp: true
+- name: US_8cad3_0046
+  server: 162.159.7.2
+  port: 443
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  servername: r.icy.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: r.icy.de5.net
+  udp: true
+- name: US_8cad3_0047
+  server: 172.64.229.165
+  port: 443
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  tls: true
+  skip-cert-verify: false
+  servername: r.icy.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: r.icy.de5.net
+  udp: true
+- name: US_8cad3_0048
+  server: www.visa.cn
+  port: 443
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  tls: true
+  skip-cert-verify: false
+  servername: r.icy.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: r.icy.de5.net
+  udp: true
+- name: US_8cad3_0049
+  server: 192.0.54.131
+  port: 443
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  skip-cert-verify: false
+  servername: snippet.danfeng.kozow.com
+  network: ws
+  ws-opts:
+    path: /danfeng?ed=2560
+    headers:
+      Host: snippet.danfeng.kozow.com
+  udp: true
+- name: US_8cad3_0050
+  server: 192.0.63.230
+  port: 443
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  skip-cert-verify: false
+  servername: snippet.danfeng.kozow.com
+  network: ws
+  ws-opts:
+    path: /danfeng?ed=2560
+    headers:
+      Host: snippet.danfeng.kozow.com
+  udp: true
+- name: US_8cad3_0051
+  server: 192.0.63.56
+  port: 443
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  skip-cert-verify: false
+  servername: snippet.danfeng.kozow.com
+  network: ws
+  ws-opts:
+    path: /danfeng?ed=2560
+    headers:
+      Host: snippet.danfeng.kozow.com
+  udp: true
+- name: US_8cad3_0052
+  server: 192.0.54.225
+  port: 443
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  skip-cert-verify: false
+  servername: snippet.danfeng.kozow.com
+  network: ws
+  ws-opts:
+    path: /danfeng?ed=2560
+    headers:
+      Host: snippet.danfeng.kozow.com
+  udp: true
+- name: US_8cad3_0053
+  server: 192.0.63.134
+  port: 443
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  skip-cert-verify: false
+  servername: snippet.danfeng.kozow.com
+  network: ws
+  ws-opts:
+    path: /danfeng?ed=2560
+    headers:
+      Host: snippet.danfeng.kozow.com
+  udp: true
+- name: US_8cad3_0054
+  server: 192.0.54.188
+  port: 443
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  skip-cert-verify: false
+  servername: snippet.danfeng.kozow.com
+  network: ws
+  ws-opts:
+    path: /danfeng?ed=2560
+    headers:
+      Host: snippet.danfeng.kozow.com
+  udp: true
+- name: US_8cad3_0055
+  server: 104.17.155.101
+  port: 443
+  type: vless
+  uuid: 29ff2954-dfea-4d20-8089-059cfa861453
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  servername: wu.090881.xyz
+  network: ws
+  ws-opts:
+    path: /products/proxyip=ProxyIP.SG.CMLiussss.net/proxyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: wu.090881.xyz
+  udp: true
+- name: US_8cad3_0056
+  server: 172.64.156.0
+  port: 443
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  tls: true
+  skip-cert-verify: false
+  servername: r.icy.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: r.icy.de5.net
+  udp: true
+- name: US_8cad3_0057
+  server: vip1.kaixincloud.top
+  port: 443
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  servername: r.icy.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: r.icy.de5.net
+  udp: true
+- name: US_8cad3_0059
+  server: 162.159.44.142
+  port: 443
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  servername: r.icy.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: r.icy.de5.net
+  udp: true
+- name: US_8cad3_0060
+  server: 159.54.185.35
+  port: 2443
+  type: vless
+  uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: safari
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: Rp0axdMMyjBY3su8yFECX1rMCcg90y0HcCHalmxs73Y
+    short-id: 494cf2
+  udp: true
+- name: US_8cad3_0065
+  server: 77.247.126.137
+  port: 443
+  type: trojan
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  skip-cert-verify: true
+  udp: true
+- name: US_8cad3_0066
+  server: node-nl-main.amnesia.pw
+  port: 443
+  type: vless
+  uuid: d8e5386f-5b56-4a5a-87e2-26fecd735356
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  servername: ozon.ru
+  reality-opts:
+    public-key: I69t4VQEvCY-NlQuMVHGggvJ2aNo18gWstkmA-uQWxE
+  udp: true
+- name: US_8cad3_0067
+  server: 157.254.223.44
+  port: 18959
+  type: vless
+  uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  servername: itunes.apple.com
+  reality-opts:
+    public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
+    short-id: d557c6895d014075
+  udp: true
+- name: US_8cad3_0068
+  server: 194.33.45.157
+  port: 443
+  type: trojan
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  skip-cert-verify: true
+  udp: true
+- name: US_8cad3_0069
+  server: 143.14.22.98
+  port: 8443
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: random
+  servername: snippet.chinat.eu.cc
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /danfeng
+    headers:
+      Host: snippet.chinat.eu.cc
+  udp: true
+- name: US_8cad3_0070
+  server: 192.200.160.20
+  port: 443
+  type: vless
+  uuid: 92b82d0f-d2f8-4f6f-b177-08f681a337e6
+  tls: true
+  skip-cert-verify: false
+  servername: 639073677243791121.camry-perma.info
+  network: ws
+  ws-opts:
+    path: /njvqoews?ed=2560
+    headers:
+      Host: 639073677243791121.camry-perma.info
+  udp: true
+- name: GOOGLE 01
+  server: 104.19.85.38
+  port: 443
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  tls: true
+  servername: r.icy.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: r.icy.de5.net
+  udp: true
+- name: GOOGLE 02
+  server: 172.64.52.81
+  port: 443
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  tls: true
+  servername: r.icy.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: r.icy.de5.net
+  udp: true
+- name: GOOGLE 08
+  server: 108.162.195.58
+  port: 443
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  tls: true
+  servername: r.icy.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: r.icy.de5.net
+  udp: true
+- name: 🇩🇪 德国 | DEU
+  server: 172.66.44.230
+  port: 8443
+  type: trojan
+  password: 8r<[9'l6hAO#8ZQi
+  sni: Koma-YT.PAGeS.Dev
+  network: ws
+  ws-opts:
+    path: /tro8sFW1S91B6sZrM1?ed=2560
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+  udp: true
+- name: 🇩🇪 德国 | DEU 3
+  server: ip1.758733.xyz
+  port: 10088
+  type: tuic
+  password: dongtaiwang.com
+  uuid: 9bbd1f42-7ae7-4239-bd10-a68de95e3295
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  disable-sni: false
+  reduce-rtt: false
+  request-timeout: 0
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: 🇩🇪 德国 | DEU 4
+  server: 5.83.129.90
+  port: 54177
+  type: hysteria
+  auth_str: dongtaiwang.com
+  auth-str: dongtaiwang.com
+  up: 500
+  down: 1000
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  udp: true
+- name: 🇯🇵 日本 | JPN
+  server: cf.090227.xyz
+  port: 443
+  type: ss
+  cipher: none
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    host: mfvpn.fuchen.indevs.in
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+    mux: false
+  udp: true
+- name: 🇯🇵 日本 | JPN 2
+  server: sub.danfeng.eu.org
+  port: 443
+  type: ss
+  cipher: none
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    host: mfvpn.fuchen.indevs.in
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+    mux: false
+  udp: true
+- name: 🇯🇵 日本 | JPN 3
+  server: store.ubi.com
+  port: 443
+  type: ss
+  cipher: none
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    host: mfvpn.fuchen.indevs.in
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+    mux: false
+  udp: true
+- name: 🇯🇵 日本 | JPN 4
+  server: 13.192.204.27
+  port: 23255
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 日本 | JPN 5
+  server: cdns.doon.eu.org
+  port: 443
+  type: ss
+  cipher: none
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    host: mfvpn.fuchen.indevs.in
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+    mux: false
+  udp: true
+- name: 🇯🇵 日本 | JPN 6
+  server: cf.zhetengsha.eu.org
+  port: 443
+  type: ss
+  cipher: none
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    host: mfvpn.fuchen.indevs.in
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+    mux: false
+  udp: true
+- name: 🇯🇵 日本 | JPN 7
+  server: cf.130519.xyz
+  port: 443
+  type: ss
+  cipher: none
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    host: woshinidie-et3.pages.dev
+    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+    tls: true
+    mux: false
+  udp: true
+- name: 🇵🇹 葡萄牙 | PRT
+  server: 185.231.233.112
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+  udp: true
+- name: 🇸🇪 瑞典 | SWE
+  server: 51.20.160.11
+  port: 443
+  type: ss
+  cipher: none
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    host: mfvpn.fuchen.indevs.in
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\
+    tls: true
+    mux: false
+  udp: true
+- name: 🇸🇬 新加坡 | SGP
+  server: 103.36.91.32
+  port: 8388
+  type: ss
+  cipher: chacha20-ietf
+  password: asd123456
+  udp: true
+- name: 🇹🇷 土耳其 | TUR
+  server: 188.114.98.0
+  port: 2087
+  type: vless
+  uuid: fa35cfa7-e61b-4752-b4d3-394f53f0a108
+  tls: true
+  alpn:
+  - h2
+  servername: all-tm1.netsnap.ir.
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: all-tm1.netsnap.ir.
+  udp: true
+- name: 🇺🇸 美国 | USA 6
+  server: 172.64.52.210
+  port: 443
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  tls: true
+  servername: r.icy.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: r.icy.de5.net
+  udp: true
+- name: 🇺🇸 美国 | USA 7
+  server: 162.159.48.142
+  port: 443
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  tls: true
+  servername: r.icy.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: r.icy.de5.net
+  udp: true
+- name: 🇺🇸 美国 | USA 8
+  server: alist.sm.uy
+  port: 443
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  tls: true
+  servername: r.icy.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: r.icy.de5.net
+  udp: true
+- name: 🇺🇸 美国 | USA 10
+  server: vip2.kaixincloud.top
+  port: 443
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  tls: true
+  servername: r.icy.de5.net
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: r.icy.de5.net
+  udp: true
+- name: 🇻🇳 越南 | VNM
+  server: 103.186.155.19
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇻🇳 越南 | VNM 2
+  server: 103.186.154.31
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🇿🇦 南非 | ZAF
+  server: 45.221.98.14
+  port: 59901
+  type: anytls
+  password: dongtaiwang.com
+  udp: true
+  skip-cert-verify: true
+  alpn:
+  - h2
+- name: 爱尔兰 - 都柏林 - 1
+  server: eternal-serval.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: eternal-serval.rooster465.autos
+  delay: 892
+- name: 爱尔兰 - 都柏林 - 2
+  server: saving-anemone.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: saving-anemone.rooster465.autos
+  delay: 1390
+- name: 爱尔兰 - 都柏林 - 3
+  server: grown-goldfish.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: grown-goldfish.rooster465.autos
+  delay: 928
+- name: 爱尔兰 - 都柏林 - 4
+  server: optimal-dane.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: optimal-dane.rooster465.autos
+  delay: 1657
+- name: 澳大利亚 - 悉尼 - 1
+  server: premium-lab.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: premium-lab.rooster465.autos
+  delay: 1662
+- name: 波兰 - 华沙 - 1
+  server: outgoing-cockatoo.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: outgoing-cockatoo.rooster465.autos
+  delay: 1724
+- name: 波兰 - 华沙 - 2
+  server: funky-platypus.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: funky-platypus.rooster465.autos
+  delay: 962
+- name: 波兰 - 华沙 - 3
+  server: top-goshawk.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: top-goshawk.rooster465.autos
+  delay: 990
+- name: 德国 - Frankfurt am Main - 1
+  server: dynamic-tiger.crayfish192.xyz
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: dynamic-tiger.crayfish192.xyz
+  delay: 795
+- name: 法国 - 巴黎 - 1
+  server: still-mastodon.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: still-mastodon.rooster465.autos
+  delay: 1607
+- name: 法国 - 巴黎 - 2
+  server: sterling-dinosaur.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: sterling-dinosaur.rooster465.autos
+  delay: 1798
+- name: 法国 - 巴黎 - 3
+  server: prompt-duckling.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: prompt-duckling.rooster465.autos
+  delay: 1842
+- name: 法国 - 巴黎 - 4
+  server: 52.47.165.179
+  type: trojan
+  country: 🇫🇷FR
+  port: 22223
+  password: telegram-id-directvpn
+  skip-cert-verify: true
+  udp: true
+  delay: 2305
+- name: 法国 - 巴黎 - 5
+  server: 52.47.165.179
+  type: trojan
+  country: 🇫🇷FR
+  port: 22222
+  password: telegram-id-privatevpns
+  skip-cert-verify: true
+  udp: true
+  delay: 657
+- name: 韩国 - 首尔特别市 - 1
+  server: sterling-fowl.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: sterling-fowl.rooster465.autos
+  delay: 603
+- name: 韩国 - 首尔特别市 - 2
+  server: amused-peacock.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: amused-peacock.rooster465.autos
+  delay: 576
+- name: 韩国 - 首尔特别市 - 3
+  server: ready-lion.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: ready-lion.rooster465.autos
+  delay: 559
+- name: 韩国 - 首尔特别市 - 4
+  server: powerful-squid.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: powerful-squid.rooster465.autos
+  delay: 578
+- name: 韩国 - 首尔特别市 - 5
+  server: 141.164.45.187
+  type: ss
+  country: 🇰🇷KR
+  port: 5498
+  password: lGqs95QkFHo2NV
+  cipher: aes-256-gcm
+  delay: 892
+- name: 韩国 - 首尔特别市 - 6
+  server: positive-bear.rooster465.autos
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: IL37892054
+  sni: positive-bear.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 564
+- name: 克罗地亚 - 萨格勒布 - 1
+  server: 46.183.184.60
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+  udp: true
+  delay: 1126
+- name: 美国 - 波特蘭 - 1
+  server: alert-sunbird.crayfish192.xyz
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: alert-sunbird.crayfish192.xyz
+  delay: 2003
+- name: 美国 - 波特蘭 - 3
+  server: healthy-ewe.rooster465.autos
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: IL37892054
+  sni: healthy-ewe.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 1060
+- name: 美国 - 华盛顿特区 - 2
+  server: v4.hdacd.com
+  type: vmess
+  country: 🇭🇰 HK
+  port: 30804
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+  delay: 2259
+- name: 日本 - 东京 - 1
+  server: saving-octopus.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: saving-octopus.rooster465.autos
+  delay: 563
+- name: 日本 - 东京 - 10
+  server: sharp-feline.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: sharp-feline.rooster465.autos
+  delay: 423
+- name: 日本 - 东京 - 11
+  server: awake-shiner.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: awake-shiner.rooster465.autos
+  delay: 418
+- name: 日本 - 东京 - 12
+  server: optimal-penguin.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: optimal-penguin.rooster465.autos
+  delay: 435
+- name: 日本 - 东京 - 13
+  server: enormous-whippet.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: enormous-whippet.rooster465.autos
+  delay: 427
+- name: 日本 - 东京 - 14
+  server: prepared-hawk.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: prepared-hawk.rooster465.autos
+  delay: 447
+- name: 日本 - 东京 - 15
+  server: darling-mongrel.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: darling-mongrel.rooster465.autos
+  delay: 442
+- name: 日本 - 东京 - 16
+  server: moved-bluegill.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: moved-bluegill.rooster465.autos
+  delay: 437
+- name: 日本 - 东京 - 17
+  server: definite-jennet.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: definite-jennet.rooster465.autos
+  delay: 448
+- name: 日本 - 东京 - 18
+  server: valued-mullet.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: valued-mullet.rooster465.autos
+  delay: 421
+- name: 日本 - 东京 - 19
+  server: hopeful-burro.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: hopeful-burro.rooster465.autos
+  delay: 431
+- name: 日本 - 东京 - 2
+  server: diverse-thrush.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: diverse-thrush.rooster465.autos
+  delay: 572
+- name: 日本 - 东京 - 20
+  server: evolving-platypus.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: evolving-platypus.rooster465.autos
+  delay: 415
+- name: 日本 - 东京 - 21
+  server: brief-glider.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: brief-glider.rooster465.autos
+  delay: 428
+- name: 日本 - 东京 - 22
+  server: climbing-sawfly.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: climbing-sawfly.rooster465.autos
+  delay: 423
+- name: 日本 - 东京 - 23
+  server: nice-elephant.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: nice-elephant.rooster465.autos
+  delay: 447
+- name: 日本 - 东京 - 24
+  server: allowed-hermit.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: allowed-hermit.rooster465.autos
+  delay: 438
+- name: 日本 - 东京 - 25
+  server: game-ant.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: game-ant.rooster465.autos
+  delay: 431
+- name: 日本 - 东京 - 26
+  server: live-drake.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: live-drake.rooster465.autos
+  delay: 712
+- name: 日本 - 东京 - 27
+  server: needed-haddock.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: needed-haddock.rooster465.autos
+  delay: 432
+- name: 日本 - 东京 - 28
+  server: intense-monarch.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: intense-monarch.rooster465.autos
+  delay: 416
+- name: 日本 - 东京 - 29
+  server: welcome-owl.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: IL37892054
+  sni: welcome-owl.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 409
+- name: 日本 - 东京 - 3
+  server: thankful-mustang.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: thankful-mustang.rooster465.autos
+  delay: 558
+- name: 日本 - 东京 - 31
+  server: sharp-dogfish.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: IL37892054
+  sni: sharp-dogfish.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 291
+- name: 日本 - 东京 - 5
+  server: intimate-adder.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: intimate-adder.rooster465.autos
+  delay: 443
+- name: 日本 - 东京 - 6
+  server: exciting-turtle.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: exciting-turtle.rooster465.autos
+  delay: 448
+- name: 日本 - 东京 - 7
+  server: aware-corgi.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: aware-corgi.rooster465.autos
+  delay: 419
+- name: 日本 - 东京 - 8
+  server: lenient-penguin.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: lenient-penguin.rooster465.autos
+  delay: 429
+- name: 日本 - 东京 - 9
+  server: vast-werewolf.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: vast-werewolf.rooster465.autos
+  delay: 412
+- name: 瑞典 - 斯德哥尔摩 - 1
+  server: 16.171.110.163
+  type: ss
+  country: 🇸🇪SE
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  delay: 1514
+- name: 西班牙 - 马德里 - 1
+  server: 5.188.181.201
+  type: ss
+  country: 🇪🇸 ES
+  port: 9001
+  password: UkXRsXvR6buDMG2Y
+  cipher: aes-256-cfb
+  delay: 607
+- name: 新加坡 - 新加坡 - 1
+  server: settling-humpback.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: settling-humpback.rooster465.autos
+  delay: 616
+- name: 新加坡 - 新加坡 - 2
+  server: allowed-moose.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: allowed-moose.rooster465.autos
+  delay: 550
+- name: 新加坡 - 新加坡 - 3
+  server: modest-bat.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: modest-bat.rooster465.autos
+  delay: 535
+- name: 新加坡 - 新加坡 - 4
+  server: easy-barnacle.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: easy-barnacle.rooster465.autos
+  delay: 536
+- name: 新加坡 - 新加坡 - 5
+  server: gorgeous-mole.crayfish192.xyz
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: gorgeous-mole.crayfish192.xyz
+  delay: 534
+- name: 新加坡 - 新加坡 - 6
+  server: musical-ant.rooster465.autos
+  type: trojan
+  port: 443
+  password: WF42809561
+  sni: musical-ant.rooster465.autos
+  delay: 525
+- name: 印度尼西亚 - Kresek - 1
+  server: 47.57.182.141
+  type: vmess
+  country: 🇭🇰HK
+  port: 443
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: mn1ray.jagoanvip.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /vvip
+    headers:
+      HOST: mn1ray.jagoanvip.xyz
+  delay: 767
+- name: 越南 - Hải Dương - 1
+  server: 103.186.155.222
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+  delay: 902
+- name: 越南 - Hải Dương - 10
+  server: 103.186.154.28
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+  delay: 869
+- name: 越南 - Hải Dương - 11
+  server: 103.186.155.61
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+  delay: 877
+- name: 越南 - Hải Dương - 2
+  server: 103.186.155.150
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+  delay: 848
+- name: 越南 - Hải Dương - 3
+  server: 103.186.155.205
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+  delay: 1899
+- name: 越南 - Hải Dương - 4
+  server: 103.186.154.153
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+  delay: 882
+- name: 越南 - Hải Dương - 5
+  server: 103.186.154.220
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+  delay: 865
+- name: 越南 - Hải Dương - 6
+  server: 103.186.154.191
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+  delay: 1790
+- name: 越南 - Hải Dương - 7
+  server: 103.186.155.134
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+  delay: 1114
+- name: 越南 - Hải Dương - 8
+  server: 103.186.154.206
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+  delay: 836
+- name: 越南 - Hải Dương - 9
+  server: 103.186.155.82
+  port: 38388
+  type: ss
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+  delay: 1774
+- name: 中国 - 香港 - 1
+  server: c321de88-t5xj40-t7d1t3-81nv.hkt.gotochinatown.net
+  type: vmess
+  country: 🇭🇰HK
+  port: 80
+  uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f
+  alterId: 2
+  cipher: auto
+  network: ws
+  servername: c321de88-t5xj40-t7d1t3-81nv.hkt.gotochinatown.net
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      HOST: c321de88-t5xj40-t7d1t3-81nv.hkt.gotochinatown.net
+  delay: 927
+- name: 中国 - 香港 - 2
+  server: 9b1dcda4-t70f40-t7m3jq-1rnrp.hkt.gotochinatown.net
+  type: vmess
+  country: 🇭🇰HK
+  port: 80
+  uuid: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
+  alterId: 2
+  cipher: auto
+  network: ws
+  servername: broadcastlv.chat.bilibili.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+  delay: 1097
+- name: 中国 - 香港 - 3
+  server: 927d9757-t6r5s0-t7hsj2-1gevg.hkt.gotochinatown.net
+  type: vmess
+  country: 🇭🇰HK
+  port: 80
+  uuid: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
+  alterId: 2
+  cipher: auto
+  network: ws
+  servername: broadcastlv.chat.bilibili.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+  delay: 2515
+- name: 中国 - 香港 - 4
+  server: e8faf291-tbdts0-tcdmjc-1gevg.hkt.gotochinatown.net
+  port: 80
+  type: vmess
+  country: 🏁 ZZ
+  uuid: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
+  alterId: 2
+  cipher: auto
+  network: ws
+  http-opts: {}
+  ws-path: /
+  ws-headers:
+    HOST: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  servername: broadcastlv.chat.bilibili.com
+  delay: 522
+- name: 中国 - 香港 - 5
+  server: ebf93ea5-t70f40-t7d1t3-81nv.hkt.gotochinatown.net
+  type: vmess
+  country: 🇭🇰HK
+  port: 80
+  uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f
+  alterId: 2
+  cipher: auto
+  network: ws
+  servername: broadcastlv.chat.bilibili.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+  delay: 879
+- name: 中国 - 香港 - 6
+  server: 2bb9ebed-t70f40-t7hsj2-1gevg.hkt.gotochinatown.net
+  type: vmess
+  country: 🇭🇰HK
+  port: 80
+  uuid: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
+  alterId: 2
+  cipher: auto
+  network: ws
+  servername: broadcastlv.chat.bilibili.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+  delay: 1176
+- name: 中国 - 香港 - 7
+  server: 103.141.221.124
+  type: ss
+  country: 🇭🇰 HK
+  port: 8388
+  password: asd123456
+  cipher: chacha20-ietf
+  delay: 137
+- name: 中国 - 香港 - 8
+  server: hk14.network-cdn-gw-yd.net
+  port: 32062
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: eb9aff96-654d-4b84-bfbd-30d57a927e4d
+  udp: true
+  delay: 887
+- name: 中国 - 香港 - 9
+  server: 103.143.238.196
+  type: vmess
+  country: 🇭🇰HK
+  port: 21879
+  uuid: 1e1a6b3b-14b2-4ae4-9aa9-880ba5dff6fa
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: www.cloudflare.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /vmesswss
+    headers:
+      HOST: www.cloudflare.com
+  delay: 852
+- name: undefined - undefined - 1
+  server: zz6.91js.pw
+  port: 10051
+  type: trojan
+  password: a13820c547fa34c5c45515c12f0cd576
+  skip-cert-verify: true
+  udp: true
+  delay: 689
+- cipher: aes-256-cfb
+  name: 未知
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.240
+  type: ss
+- client-fingerprint: chrome
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国
+  network: ws
+  port: 443
+  server: 139.196.41.153
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /gs5=6666:6666@47.239.178.125:6666
+- client-fingerprint: chrome
+  name: 🇩🇪_DE_德国
+  network: ws
+  port: 4001
+  server: 185.94.29.156
+  servername: sub.mot.ip-ddns.com
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
+- client-fingerprint: random
+  name: 🇨🇳_CN_中国
+  port: 443
+  reality-opts:
+    public-key: RravQN06gzsNsm5ojEhZGrxBgLGEpqEThtHEltdjpBk
+    short-id: b3d76d
+  server: logggg.nammknammknammknammknammkb2.ir
+  servername: logggg.nammknammknammknammknammkb2.ir
+  tls: true
+  type: vless
+  uuid: d4de1f64-bf3c-4d97-9663-0091f8c07359
+- cipher: aes-256-cfb
+  name: 未知_1
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.232
+  type: ss
+- name: 🇧🇬_BG_保加利亚
+  password: IL37892054
+  port: 443
+  server: steady-lemming.rooster465.autos
+  skip-cert-verify: false
+  sni: steady-lemming.rooster465.autos
+  tls: false
+  type: trojan
+- cipher: aes-256-cfb
+  name: 未知_2
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.180
+  type: ss
+- cipher: aes-256-cfb
+  name: 未知_3
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.16
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪_DE_德国_1
+  port: 443
+  reality-opts:
+    public-key: xpv3OgIQ4ND_ZaiLxjHk1JsykVAVUY73UkyxPlU8Clc
+    short-id: 695f0df252f9889d
+  server: der.jojack.ru
+  servername: der.jojack.ru
+  tls: true
+  type: vless
+  uuid: c67f81df-34e8-4cb3-ab43-599585775fa9
+- cipher: aes-256-cfb
+  name: 未知_4
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.75
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸_US_美国->🇸🇨_SC_塞舌尔
+  port: 443
+  server: pl234.mechvpn.online
+  servername: pl234.mechvpn.online
+  tls: true
+  type: vless
+  uuid: 729764b1-149c-49f2-b170-322544df7b5b
+- name: 🇨🇳_CN_中国_1
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
+  skip-cert-verify: true
+  tls: false
+  type: trojan
+- cipher: aes-256-cfb
+  name: 未知_5
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.170
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇳🇱_NL_荷兰->🇺🇸_US_美国
+  port: 13344
+  reality-opts:
+    public-key: DC71RjKr16drr8gqK8QhEuCVLpkbBfUfPb9Far8Jkzo
+    short-id: e2bd9802e29deb
+  server: 45.136.59.44
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: 3fce3b0d-0b92-4e92-9a78-18051dd648b4
+- client-fingerprint: chrome
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  network: ws
+  port: 20231
+  server: 64.120.89.69
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    headers:
+      Host: r.icy.de5.net
+    path: /?ed=2560
+- cipher: aes-256-cfb
+  name: 未知_6
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.143
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇿_CZ_捷克->🇷🇺_RU_俄罗斯
+  port: 10965
+  reality-opts:
+    public-key: lHxeD2nYtDb1V7JseV-sUTEuqH6_jie7U_iOARX7cT0
+    short-id: 9f3a7c6d2e8b41af
+  server: desta.axinode.sbs
+  servername: deepl.com
+  tls: true
+  type: vless
+  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
+- cipher: aes-256-cfb
+  name: 🇪🇸_ES_西班牙
+  password: M3t2ZEQcMGRWBjRa
+  port: 9011
+  server: 5.188.181.201
+  type: ss
+- cipher: aes-256-cfb
+  name: 未知_7
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.150
+  type: ss
+- cipher: aes-256-cfb
+  name: 未知_8
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.152
+  type: ss
+- client-fingerprint: chrome
+  name: 🇺🇸_US_美国->🇸🇬_SG_新加坡
+  network: ws
+  port: 11001
+  server: 47.245.99.66
+  servername: sub.mot.ip-ddns.com
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
+- cipher: none
+  name: 香港節點
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 8.223.63.150
+  type: ss
+- name: 美國
+  network: ws
+  port: 443
+  server: 68.64.179.243
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- cipher: none
+  name: 🇭🇰HK香港
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 8001
+  server: 47.242.145.136
+  type: ss
+- cipher: none
+  name: 新加坡
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 15430
+  server: 47.237.71.245
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 美國_1
+  port: 54022
+  server: 103.181.164.145
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: none
+  name: 🇸🇬SG新加坡節點
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 34.143.159.175
+  type: ss
+- cipher: none
+  name: 香港
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: woshinidie-et3.pages.dev
+    mode: websocket
+    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
+  port: 443
+  server: cf.877774.xyz
+  type: ss
+- cipher: none
+  name: 🇺🇸US
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 170.114.45.38
+  type: ss
+- cipher: none
+  name: 日本
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: woshinidie-et3.pages.dev
+    mode: websocket
+    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
+  port: 443
+  server: saas.sin.fan
+  type: ss
+- cipher: none
+  name: 🇨🇳TW臺灣節點
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 114.33.57.170
+  type: ss
+- cipher: none
+  name: 🇯🇵JP
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 140.238.50.134
+  type: ss
+- cipher: none
+  name: 🇩🇪DE德國
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 167.235.149.67
+  type: ss
+- cipher: none
+  name: 德國
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 172.104.143.156
+  type: ss
+- cipher: none
+  name: 🇺🇸US_24
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 198.71.188.16
+  type: ss
+- cipher: none
+  name: 🇯🇵JP_1
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 115.163.106.137
+  type: ss
+- cipher: none
+  name: 香港_1
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: woshinidie-et3.pages.dev
+    mode: websocket
+    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
+  port: 443
+  server: cf.008500.xyz
+  type: ss
+- cipher: none
+  name: 🇸🇬SG新加坡
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 103.241.62.245
+  type: ss
+- name: 美國_2
+  network: ws
+  port: 15284
+  server: 221.146.116.77
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- cipher: none
+  name: 🇭🇰HK
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 103.194.107.166
+  type: ss
+- cipher: none
+  name: 🇯🇵JP日本節點
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 140.238.51.35
+  type: ss
+- cipher: none
+  name: 🇯🇵JP日本
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 155.248.181.189
+  type: ss
+- cipher: none
+  name: 🇯🇵JP_2
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 89.116.88.19
+  type: ss
+- cipher: none
+  name: 🇭🇰HK_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 154.3.33.43
+  type: ss
+- cipher: none
+  name: 🇺🇸US_297
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 45.40.147.16
+  type: ss
+- cipher: none
+  name: 🇺🇸US美國節點
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 50.62.90.16
+  type: ss
+- cipher: none
+  name: 韓國
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 12126
+  server: 116.44.53.251
+  type: ss
+- cipher: none
+  name: 🇮🇳IN印度
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 20.235.105.146
+  type: ss
+- cipher: none
+  name: 🇺🇸US_美國
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 104.238.70.16
+  type: ss
+- cipher: none
+  name: 🇩🇪DE德国
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 94.159.110.149
+  type: ss
+- cipher: none
+  name: 印度
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 13.200.192.197
+  type: ss
+- cipher: none
+  name: 德國_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 2053
+  server: 188.241.241.3
+  type: ss
+- name: 美國節點
+  network: ws
+  port: 443
+  server: 34.143.159.175
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- cipher: none
+  name: 🇺🇸US_美國_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 50.62.88.16
+  type: ss
+- cipher: none
+  name: 🇺🇸US_290
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 45.40.154.16
+  type: ss
+- cipher: none
+  name: 🇺🇸US_161
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 154.194.0.16
+  type: ss
+- cipher: none
+  name: 🇺🇸US美國
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 2053
+  server: 31.58.50.110
+  type: ss
+- cipher: none
+  name: 🇩🇪DE德國_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 139.144.77.162
+  type: ss
+- cipher: none
+  name: 瑞典🇸🇪SE
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 8443
+  server: 188.126.77.155
+  type: ss
+- cipher: none
+  name: 🇺🇸US_27
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 198.12.144.16
+  type: ss
+- cipher: none
+  name: 美國🇺🇸US
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 8443
+  server: 31.58.226.196
+  type: ss
+- cipher: none
+  name: 🇸🇪SE瑞典節點
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 8443
+  server: 46.246.96.59
+  type: ss
+- name: 韓國節點
+  network: ws
+  port: 8443
+  server: 59.3.3.161
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- cipher: none
+  name: 🇰🇷KR韓國
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 50001
+  server: 59.24.1.109
+  type: ss
+- cipher: none
+  name: 🇩🇪DE
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 89.169.6.69
+  type: ss
+- cipher: none
+  name: 🇩🇪DE德国_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 94.159.98.123
+  type: ss
+- cipher: none
+  name: 🇺🇸US_56
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 190.93.246.16
+  type: ss
+- cipher: none
+  name: 🇺🇸US_243
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 50.62.195.16
+  type: ss
+- cipher: none
+  name: 🇺🇸US_1
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 103.133.1.38
+  type: ss
+- cipher: none
+  name: 🇺🇸US_235
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 69.84.182.16
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 94.159.98.140
+  type: ss
+- cipher: none
+  name: 🇺🇸US_2
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 216.205.52.16
+  type: ss
+- cipher: none
+  name: 德國_2
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 143.20.160.38
+  type: ss
+- cipher: none
+  name: 🇺🇸US_133
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 160.153.137.16
+  type: ss
+- cipher: none
+  name: 🇸🇬SG新加坡節點_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 129.226.150.167
+  type: ss
+- cipher: none
+  name: 🇱🇻LV拉脫維亞
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 8443
+  server: 193.68.89.220
+  type: ss
+- cipher: none
+  name: 德國🇩🇪DE
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 8443
+  server: 143.20.213.135
+  type: ss
+- client-fingerprint: chrome
+  name: 🇦🇺_AU_澳大利亚->🇸🇬_SG_新加坡
+  network: ws
+  port: 8443
+  server: 43.160.248.66
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- cipher: none
+  name: 🇩🇪DE_2
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 185.186.26.101
+  type: ss
+- name: 美國節點_1
+  password: trojan
+  port: 8444
+  server: 152.53.200.167
+  skip-cert-verify: false
+  sni: jflsjlaf.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
+- cipher: none
+  name: 🇩🇪DE_3
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 8443
+  server: 143.20.213.97
+  type: ss
+- cipher: none
+  name: 韓國_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 12312
+  server: 211.48.77.114
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_4
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 94.237.101.95
+  type: ss
+- name: 美國節點_2
+  network: ws
+  port: 443
+  server: 68.64.179.96
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- cipher: none
+  name: 🇯🇵JP日本_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 8443
+  server: 138.2.55.219
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_5
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 139.162.141.75
+  type: ss
+- cipher: none
+  name: 🇨🇦CA加拿大節點
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 192.99.169.176
+  type: ss
+- cipher: none
+  name: 荷蘭🇳🇱NL
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 8443
+  server: 212.192.215.229
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_6
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 139.162.150.12
+  type: ss
+- cipher: none
+  name: 芬蘭
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 2053
+  server: 94.183.190.73
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_7
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 192.46.237.206
+  type: ss
+- cipher: none
+  name: 🇻🇳VN越南
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 49678
+  server: 103.15.90.134
+  type: ss
+- cipher: none
+  name: 🇳🇱NL荷蘭
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 89.110.113.198
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_8
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 194.233.167.228
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_9
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 78.40.216.169
+  type: ss
+- cipher: none
+  name: 拉脫維亞節點
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 37.128.207.179
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_10
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 45.147.248.115
+  type: ss
+- cipher: none
+  name: 拉脫維亞
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 46.32.185.152
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 美国
+  password: RFK38Cg7APneSB5cWDcpbm
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+- cipher: none
+  name: 拉脫維亞_1
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 46.32.186.85
+  type: ss
+- cipher: none
+  name: 🇱🇻LV拉脫維亞_1
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 195.123.210.147
+  type: ss
+- cipher: none
+  name: 🇮🇳IN印度節點
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 172.236.187.52
+  type: ss
+- cipher: none
+  name: 🇯🇵JP_3
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 12145
+  server: 202.84.53.85
+  type: ss
+- cipher: none
+  name: 德國_3
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 176.124.198.2
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_11
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  port: 443
+  server: 94.141.123.231
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_12
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 167.235.224.25
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_13
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 172.104.250.194
+  type: ss
+- cipher: none
+  name: 🇩🇪DE_14
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 83.147.253.18
+  type: ss
+- cipher: none
+  name: 🇨🇳TW
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 167.253.153.44
+  type: ss
+- name: 韓國節點_1
+  network: ws
+  port: 30023
+  server: 211.243.73.135
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- cipher: none
+  name: 🇯🇵JP_4
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 19999
+  server: 202.84.53.85
+  type: ss
+- cipher: none
+  name: 🇯🇵JP_5
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 11738
+  server: 202.84.53.85
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 亚太地区
+  port: 34114
+  server: 103.181.164.237
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: none
+  name: 🇯🇵JP_7
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 14740
+  server: 202.84.53.85
+  type: ss
+- name: 美國節點_3
+  network: ws
+  port: 22410
+  server: 211.48.77.114
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- name: 伊朗
+  network: ws
+  port: 443
+  server: 151.242.74.249
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- alterId: 0
+  cipher: auto
+  name: 美國_4
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: none
+  name: 🇭🇰HK香港節點
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 83.229.123.15
+  type: ss
+- cipher: none
+  name: 🇮🇳IN印度節點_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 143.110.247.34
+  type: ss
+- cipher: none
+  name: 🇰🇷KR韓國_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 14821
+  server: 203.175.38.68
+  type: ss
+- cipher: none
+  name: 🇰🇷KR
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 21036
+  server: 116.93.199.28
+  type: ss
+- cipher: none
+  name: 日本_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 74.113.96.217
+  type: ss
+- cipher: none
+  name: 日本節點
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 45.77.178.100
+  type: ss
+- cipher: none
+  name: 韓國_2
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 22140
+  server: 116.93.199.28
+  type: ss
+- cipher: none
+  name: 🇯🇵JP_8
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 158.51.109.218
+  type: ss
+- cipher: none
+  name: 🇰🇷KR_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 19655
+  server: 211.48.77.114
+  type: ss
+- cipher: none
+  name: 臺灣
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 2053
+  server: 125.227.233.197
+  type: ss
+- cipher: none
+  name: 🇰🇷KR_2
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 446
+  server: 43.155.186.100
+  type: ss
+- cipher: none
+  name: 🇰🇷KR_3
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 8443
+  server: 168.107.5.23
+  type: ss
+- cipher: none
+  name: 印度_1
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 443
+  server: 103.181.177.88
+  type: ss
+- cipher: none
+  name: 🇰🇷KR_4
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 56271
+  server: 146.56.106.51
+  type: ss
+- cipher: none
+  name: 韓國_3
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 24095
+  server: 211.48.77.114
+  type: ss
+- cipher: none
+  name: 🇰🇷KR_5
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 22410
+  server: 211.48.77.114
+  type: ss
+- cipher: none
+  name: 新加坡_2
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  port: 2053
+  server: 140.245.42.216
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享)
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-headers:
+    Host: 2001:bc8:32d7:302::10
+  ws-path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 2
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::15
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-headers:
+    Host: TURK.NET
+  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 4
+  port: 6034
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 6
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::14
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-headers:
+    Host: TABRIZ.NET
+  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+- alterId: 0
+  cipher: auto
+  name: FR法国(mibei77.com 米贝节点分享)
+  network: ws
+  port: 16622
+  server: planb.mojcn.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b4cf9ae-386e-4c7e-940c-02321bb3064a
+  ws-headers:
+    Host: 260f93620c1dac01c833d8d3e2918d81.mobgslb.tbcache.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: FR法国(mibei77.com 米贝节点分享) 2
+  network: ws
+  port: 16618
+  server: planb.mojcn.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b4cf9ae-386e-4c7e-940c-02321bb3064a
+  ws-headers:
+    Host: 260f93620c1dac01c833d8d3e2918d81.mobgslb.tbcache.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 7
+  port: 6027
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- cipher: chacha20-ietf-poly1305
+  name: US美国(mibei77.com 米贝节点分享) 8
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  port: 443
+  server: tinkered-pennies-puppies.freesocks.work
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: HK香港(mibei77.com 米贝节点分享)
+  password: 0a3c8ab4-d46f-4bc1-9410-8df80cfa966b
+  port: 49082
+  server: jsy-11b6-us.juse168.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 10
+  port: 6046
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 12
+  port: 30812
+  server: v12.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: HK香港(mibei77.com 米贝节点分享) 2
+  password: 0a3c8ab4-d46f-4bc1-9410-8df80cfa966b
+  port: 25109
+  server: jsy-11b6-ll.juse168.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: HK香港(mibei77.com 米贝节点分享) 3
+  password: 014d47b4-695b-4d60-9540-bfdea012b695
+  port: 10543
+  server: lm-xx-002.sadaadf--d.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 13
+  port: 6042
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 15
+  port: 6047
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- cipher: chacha20-ietf-poly1305
+  name: HK香港(mibei77.com 米贝节点分享) 4
+  password: 014d47b4-695b-4d60-9540-bfdea012b695
+  port: 55732
+  server: lm-xx-002.sadaadf--d.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: HK香港(mibei77.com 米贝节点分享) 5
+  password: 014d47b4-695b-4d60-9540-bfdea012b695
+  port: 38385
+  server: lm-xx-002.sadaadf--d.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 17
+  port: 6017
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 18
+  port: 6014
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 19
+  port: 6044
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- name: US美国(mibei77.com 米贝节点分享) 20
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: HK香港(mibei77.com 米贝节点分享) 6
+  password: 014d47b4-695b-4d60-9540-bfdea012b695
+  port: 39445
+  server: lm-xx-002.sadaadf--d.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 24
+  port: 6039
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 26
+  port: 6026
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- name: US美国(mibei77.com 米贝节点分享) 27
+  password: trojan
+  port: 8443
+  server: 109.234.211.66
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: HK香港(mibei77.com 米贝节点分享) 7
+  password: 0a3c8ab4-d46f-4bc1-9410-8df80cfa966b
+  port: 30316
+  server: jsy-11b6-ll.juse168.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 30
+  port: 6018
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 31
+  port: 6029
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- cipher: chacha20-ietf-poly1305
+  name: US美国(mibei77.com 米贝节点分享) 32
+  password: 0a3c8ab4-d46f-4bc1-9410-8df80cfa966b
+  port: 50993
+  server: jsy-11b6-hk.juse168.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: HK香港(mibei77.com 米贝节点分享) 8
+  password: da737830-48a9-4988-864b-baed644fa2e4
+  port: 30169
+  server: bbb.whtjdasha.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: HK香港(mibei77.com 米贝节点分享) 9
+  password: 0a3c8ab4-d46f-4bc1-9410-8df80cfa966b
+  port: 43258
+  server: jsy-11b6-tw.juse168.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK香港(mibei77.com 米贝节点分享) 10
+  password: 014d47b4-695b-4d60-9540-bfdea012b695
+  port: 20030
+  server: lm-xx-002.sadaadf--d.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US美国(mibei77.com 米贝节点分享) 36
+  password: 0a3c8ab4-d46f-4bc1-9410-8df80cfa966b
+  port: 26077
+  server: jsy-11b6-hk.juse168.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: FR法国(mibei77.com 米贝节点分享) 5
+  network: ws
+  port: 16632
+  server: m.cnmjin.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b4cf9ae-386e-4c7e-940c-02321bb3064a
+  ws-headers:
+    Host: 260f93620c1dac01c833d8d3e2918d81.mobgslb.tbcache.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 37
+  port: 6028
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 38
+  port: 6001
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- cipher: chacha20-ietf-poly1305
+  name: HK香港(mibei77.com 米贝节点分享) 11
+  password: 0a3c8ab4-d46f-4bc1-9410-8df80cfa966b
+  port: 56285
+  server: jsy-11b6-hk.juse168.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 39
+  port: 6040
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- cipher: chacha20-ietf-poly1305
+  name: HK香港(mibei77.com 米贝节点分享) 12
+  password: da737830-48a9-4988-864b-baed644fa2e4
+  port: 13368
+  server: bbb.whtjdasha.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: FR法国(mibei77.com 米贝节点分享) 6
+  network: ws
+  port: 16632
+  server: planb.mojcn.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b4cf9ae-386e-4c7e-940c-02321bb3064a
+  ws-headers:
+    Host: 260f93620c1dac01c833d8d3e2918d81.mobgslb.tbcache.com
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: HK香港(mibei77.com 米贝节点分享) 13
+  password: 0a3c8ab4-d46f-4bc1-9410-8df80cfa966b
+  port: 58329
+  server: jsy-11b6-hk.juse168.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US美国(mibei77.com 米贝节点分享) 44
+  password: 0a3c8ab4-d46f-4bc1-9410-8df80cfa966b
+  port: 48326
+  server: jsy-11b6-sg.juse168.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: HK香港(mibei77.com 米贝节点分享) 14
+  password: 0a3c8ab4-d46f-4bc1-9410-8df80cfa966b
+  port: 61066
+  server: jsy-11b6-tw.juse168.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US美国(mibei77.com 米贝节点分享) 45
+  password: 0a3c8ab4-d46f-4bc1-9410-8df80cfa966b
+  port: 43351
+  server: jsy-11b6-sg.juse168.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 46
+  port: 6004
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- cipher: chacha20-ietf-poly1305
+  name: HK香港(mibei77.com 米贝节点分享) 15
+  password: da737830-48a9-4988-864b-baed644fa2e4
+  port: 59850
+  server: bbb.whtjdasha.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 47
+  port: 6041
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: AU澳大利亚(mibei77.com 米贝节点分享)
+  port: 6023
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 49
+  network: ws
+  port: 443
+  server: d.810114.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2ce2ab9a-ea25-45d3-80d9-c361878bb983
+  ws-headers:
+    Host: d.810114.xyz
+  ws-path: /mea
+- alterId: 0
+  cipher: auto
+  name: AU澳大利亚(mibei77.com 米贝节点分享) 2
+  port: 6003
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: AU澳大利亚(mibei77.com 米贝节点分享) 3
+  port: 6043
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- cipher: aes-256-gcm
+  name: HK香港(mibei77.com 米贝节点分享) 16
+  password: 014d47b4-695b-4d60-9540-bfdea012b695
+  port: 33790
+  server: lm-xx-002.sadaadf--d.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 50
+  port: 30830
+  server: v30.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: HK香港(mibei77.com 米贝节点分享) 17
+  password: 0a3c8ab4-d46f-4bc1-9410-8df80cfa966b
+  port: 61068
+  server: jsy-11b6-tw.juse168.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: HK香港(mibei77.com 米贝节点分享) 18
+  password: 0a3c8ab4-d46f-4bc1-9410-8df80cfa966b
+  port: 61576
+  server: jsy-11b6-sg.juse168.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: FR法国(mibei77.com 米贝节点分享) 7
+  network: ws
+  port: 16632
+  server: t.cnmjcn.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b4cf9ae-386e-4c7e-940c-02321bb3064a
+  ws-headers:
+    Host: 260f93620c1dac01c833d8d3e2918d81.mobgslb.tbcache.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: FR法国(mibei77.com 米贝节点分享) 9
+  network: ws
+  port: 16648
+  server: planb.mojcn.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b4cf9ae-386e-4c7e-940c-02321bb3064a
+  ws-headers:
+    Host: 260f93620c1dac01c833d8d3e2918d81.mobgslb.tbcache.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: FR法国(mibei77.com 米贝节点分享) 10
+  network: ws
+  port: 16641
+  server: m.cnmjin.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b4cf9ae-386e-4c7e-940c-02321bb3064a
+  ws-headers:
+    Host: 260f93620c1dac01c833d8d3e2918d81.mobgslb.tbcache.com
+  ws-path: /
+- cipher: aes-128-gcm
+  name: US美国(mibei77.com 米贝节点分享) 55
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: chengbai02.ascwt179.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 57
+  port: 6045
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- name: FR法国(mibei77.com 米贝节点分享) 11
+  password: trojan
+  port: 2087
+  server: 109.234.211.66
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: FR法国(mibei77.com 米贝节点分享) 12
+  network: ws
+  port: 16622
+  server: t.cnmjcn.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b4cf9ae-386e-4c7e-940c-02321bb3064a
+  ws-headers:
+    Host: 260f93620c1dac01c833d8d3e2918d81.mobgslb.tbcache.com
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: HK香港(mibei77.com 米贝节点分享) 21
+  password: 014d47b4-695b-4d60-9540-bfdea012b695
+  port: 18483
+  server: lm-xx-002.sadaadf--d.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: AU澳大利亚(mibei77.com 米贝节点分享) 4
+  port: 6038
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: AU澳大利亚(mibei77.com 米贝节点分享) 5
+  port: 6002
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 60
+  port: 6007
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: AU澳大利亚(mibei77.com 米贝节点分享) 6
+  port: 6019
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- cipher: chacha20-ietf-poly1305
+  name: HK香港(mibei77.com 米贝节点分享) 22
+  password: 014d47b4-695b-4d60-9540-bfdea012b695
+  port: 29655
+  server: lm-xx-002.sadaadf--d.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: FR法国(mibei77.com 米贝节点分享) 14
+  network: ws
+  port: 16617
+  server: m.cnmjin.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b4cf9ae-386e-4c7e-940c-02321bb3064a
+  ws-headers:
+    Host: 260f93620c1dac01c833d8d3e2918d81.mobgslb.tbcache.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 63
+  port: 6020
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: AU澳大利亚(mibei77.com 米贝节点分享) 7
+  port: 6015
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- cipher: aes-256-gcm
+  name: HK香港(mibei77.com 米贝节点分享) 23
+  password: 014d47b4-695b-4d60-9540-bfdea012b695
+  port: 23688
+  server: lm-xx-002.sadaadf--d.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 64
+  port: 6021
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 2
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 65
+  port: 30836
+  server: v36.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: HK香港(mibei77.com 米贝节点分享) 25
+  password: 014d47b4-695b-4d60-9540-bfdea012b695
+  port: 34336
+  server: lm-xx-002.sadaadf--d.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: AU澳大利亚(mibei77.com 米贝节点分享) 8
+  port: 6051
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 68
+  port: 6050
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- name: KR韩国(mibei77.com 米贝节点分享)
+  password: trojan
+  port: 10003
+  server: 118.34.36.61
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: FR法国(mibei77.com 米贝节点分享) 16
+  network: ws
+  port: 16618
+  server: m.cnmjin.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b4cf9ae-386e-4c7e-940c-02321bb3064a
+  ws-headers:
+    Host: 260f93620c1dac01c833d8d3e2918d81.mobgslb.tbcache.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 72
+  port: 6005
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- cipher: chacha20-ietf-poly1305
+  name: HK香港(mibei77.com 米贝节点分享) 26
+  password: 014d47b4-695b-4d60-9540-bfdea012b695
+  port: 14383
+  server: lm-xx-002.sadaadf--d.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: FR法国(mibei77.com 米贝节点分享) 17
+  network: ws
+  port: 16617
+  server: planb.mojcn.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b4cf9ae-386e-4c7e-940c-02321bb3064a
+  ws-headers:
+    Host: 260f93620c1dac01c833d8d3e2918d81.mobgslb.tbcache.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 75
+  port: 6035
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 76
+  port: 6033
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: FR法国(mibei77.com 米贝节点分享) 18
+  network: ws
+  port: 16648
+  server: t.cnmjcn.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b4cf9ae-386e-4c7e-940c-02321bb3064a
+  ws-headers:
+    Host: 260f93620c1dac01c833d8d3e2918d81.mobgslb.tbcache.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 77
+  port: 6022
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: FR法国(mibei77.com 米贝节点分享) 19
+  network: ws
+  port: 16622
+  server: m.cnmjin.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b4cf9ae-386e-4c7e-940c-02321bb3064a
+  ws-headers:
+    Host: 260f93620c1dac01c833d8d3e2918d81.mobgslb.tbcache.com
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 82
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: FR法国(mibei77.com 米贝节点分享) 20
+  network: ws
+  port: 16616
+  server: planb.mojcn.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b4cf9ae-386e-4c7e-940c-02321bb3064a
+  ws-headers:
+    Host: 260f93620c1dac01c833d8d3e2918d81.mobgslb.tbcache.com
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: US美国(mibei77.com 米贝节点分享) 84
+  password: 6J754ee6ITjyfDysi78uqJ
+  port: 65232
+  server: 194.68.225.52
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 8元老牌专线机场：cczzuu.top
+  password: amazonskr05
+  port: 443
+  server: 63.180.254.10
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港|@stairnode
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇭🇰 香港3|@stairnode
+  password: 86e150eb21c6faee48e81d496d7f61c2
+  port: 921
+  server: 13.112.59.34
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇭🇰 香港4|@stairnode
+  password: BxceQaOe
+  port: 5823
+  server: 18.183.223.166
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 🇭🇰 香港5|@stairnode
+  password: BxceQaOe
+  port: 5823
+  server: 3.112.237.156
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 🇯🇵 日本|@stairnode
+  password: BxceQaOe
+  port: 21508
+  server: 13.112.59.34
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 🇯🇵 日本2|@stairnode
+  password: 86e150eb21c6faee48e81d496d7f61c2
+  port: 4937
+  server: 160.16.70.180
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇯🇵 日本3|@stairnode
+  password: 86e150eb21c6faee48e81d496d7f61c2
+  port: 2001
+  server: 160.16.72.33
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬 新加坡|@stairnode
+  password: 86e150eb21c6faee48e81d496d7f61c2
+  port: 4674
+  server: 18.183.223.166
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬 新加坡2|@stairnode
+  password: 86e150eb21c6faee48e81d496d7f61c2
+  port: 4674
+  server: 160.16.72.33
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬 新加坡3|@stairnode
+  password: BxceQaOe
+  port: 52951
+  server: 54.46.15.40
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 🇺🇸 美国|@stairnode
+  password: 86e150eb21c6faee48e81d496d7f61c2
+  port: 3057
+  server: 160.16.72.33
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇺🇸 美国2|@stairnode
+  password: 86e150eb21c6faee48e81d496d7f61c2
+  port: 4019
+  server: 160.16.70.180
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇺🇸 美国3|@stairnode
+  password: BxceQaOe
+  port: 8401
+  server: 16.163.155.36
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 🇺🇸_US_美国
+  port: 443
+  server: ae2.suio.me
+  servername: ae2.suio.me
+  tls: true
+  type: vless
+  uuid: 6ca2c654-53b3-4ac1-a2ef-c4b4ee88727a
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪_DE_德国
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '23'
+  server: best4.pineappled.org
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 71322f86-f37a-4929-ada0-05e6a2688145
+- client-fingerprint: chrome
+  name: 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜
+  network: ws
+  port: 15050
+  server: 218.150.33.69
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  name: 🇰🇷_KR_韩国
+  network: ws
+  port: 25095
+  server: 119.192.158.53
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇳🇱_NL_荷兰
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '23'
+  server: nl4.pineappled.org
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 71322f86-f37a-4929-ada0-05e6a2688145
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇿_CZ_捷克->🇧🇬_BG_保加利亚
+  port: 443
+  reality-opts:
+    public-key: pOdL1l8cGGg7qnOPAbDcAIVOgA7O8f75XevxeYyaYCg
+    short-id: cd11af
+  server: est.top.subtrust.ru
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 3130fccb-e72e-468d-b2ce-0721bb3058c8
+- client-fingerprint: chrome
+  name: 🇰🇷_KR_韩国_1
+  network: ws
+  port: 12184
+  server: 218.155.23.9
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇦_SA_沙特阿拉伯
+  port: 443
+  reality-opts:
+    public-key: nBxkzpHPJpW3AXzEZSQc8V00RuPj1zrxe-hYSgNtzUY
+    short-id: b7
+  server: dee1.shubnechkin.online
+  servername: vk.com
+  tls: true
+  type: vless
+  uuid: 7a1f4deb-0ea9-427e-bc9d-9297a08afa12
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 未知
+  port: 443
+  reality-opts:
+    public-key: 4YLfHf90V012Oyd2wHbwAXaJNvNUGrKWmatTKc165U8
+    short-id: 174c6cf22e22
+  server: dns.dressforida.monster
+  servername: www.techradar.com
+  tls: true
+  type: vless
+  uuid: 79149019-5abe-46f9-91ae-e1e7d1d2c408
+- client-fingerprint: chrome
+  name: 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_1
+  network: ws
+  port: 21510
+  server: 116.93.199.28
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇳🇱_NL_荷兰_1
+  port: 443
+  reality-opts:
+    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+    short-id: 4fa44664f6a566d3
+  server: nll.scroogethebest.com
+  servername: nll.scroogethebest.com
+  tls: true
+  type: vless
+  uuid: e2e1ddaa-1acf-4c4c-a211-92284f6440ed
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸_US_美国_1
+  password: W74XFALLLuw6m5IA
+  port: 443
+  server: admin.c1.webramz.co
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇪🇸_ES_西班牙
+  port: 443
+  reality-opts:
+    public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
+    short-id: feedbacc
+  server: es.fasti.win
+  servername: es.fasti.win
+  tls: true
+  type: vless
+  uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
+- client-fingerprint: chrome
+  name: 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_2
+  network: ws
+  port: 11717
+  server: 121.157.190.209
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- name: 🇺🇸_US_美国_2
+  network: ws
+  port: 2052
+  server: 104.18.32.47
+  tls: false
+  type: vless
+  uuid: 5e62ddcf-78c9-4b15-803a-436c8c839ddc
+  ws-opts:
+    headers:
+      Host: oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK.
+    path: /
+- cipher: aes-256-cfb
+  name: 未知_1
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.23
+  type: ss
+- client-fingerprint: chrome
+  name: 🇰🇷_KR_韩国_2
+  network: ws
+  port: 15380
+  server: 211.33.238.198
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- cipher: aes-256-cfb
+  name: 未知_2
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.64
+  type: ss
+- client-fingerprint: chrome
+  name: 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_3
+  network: ws
+  port: 18765
+  server: 59.29.89.197
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪_DE_德国_1
+  port: 443
+  reality-opts:
+    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+    short-id: 4fa44664f6a566d3
+  server: 5.254.85.151
+  servername: germany.scroogethebest.com
+  tls: true
+  type: vless
+  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+- client-fingerprint: chrome
+  name: 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_4
+  network: ws
+  port: 25524
+  server: 116.93.199.28
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸_US_美国_3
+  password: W74XFALLLuw6m5IA
+  port: 443
+  server: series-a1.samanehha.co
+  type: ss
+- client-fingerprint: chrome
+  name: 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+  network: ws
+  port: 8082
+  server: 89.208.113.120
+  servername: sub.mot.ip-ddns.com
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇳🇱_NL_荷兰->🇵🇱_PL_波兰
+  port: 443
+  reality-opts:
+    public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
+    short-id: feedbacc
+  server: 45.144.51.136
+  servername: pl.fasti.win
+  tls: true
+  type: vless
+  uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065

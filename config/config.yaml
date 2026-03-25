@@ -1,0 +1,74 @@
+# ==============================================
+# Xray AutoNode 全自动节点检测工具 —— 总配置
+# 所有阈值可编辑、可导入、可导出
+# ==============================================
+
+# --------------------------
+# 1. 自动检测调度
+# --------------------------
+auto_check: true
+check_interval: 12h
+idle_only_mode: true
+idle_net_threshold: 15
+idle_cpu_threshold: 30
+
+# --------------------------
+# 2. 节点检测阈值
+# --------------------------
+min_available_nodes: 5
+max_allowed_delay: 1500
+connect_timeout: 8
+retry_times: 2
+
+# --------------------------
+# 3. 速度分级阈值
+# --------------------------
+speed_test: true
+speed_threads: 10
+speed_S: 10MB
+speed_A: 3MB
+speed_B: 1MB
+speed_C: 512KB
+speed_discard: 512KB
+
+# --------------------------
+# 4. 地区过滤
+# --------------------------
+region_check: true
+use_blacklist: true
+use_whitelist: false
+auto_remove_cn: true
+
+# --------------------------
+# 5. 网站解锁检测
+# --------------------------
+website_check: true
+website_threads: 15
+website_timeout: 5
+require_website_strict: true
+
+# --------------------------
+# 6. 节点命名规则
+# --------------------------
+node_name: "{country}-{speed}-{sites}"
+shorten_name: true
+
+# --------------------------
+# 7. 输出配置
+# --------------------------
+output_count: 30
+sort_by: speed
+output_sub: true
+output_xray_config: true
+
+# --------------------------
+# 8. 自救代理列表配置
+# --------------------------
+fallback:
+  enable: true
+  use_list: true
+  timeout: 10
+  retry: 2
+  strategy: round_robin
+  direct_fallback: true
+  skip_ssl: false

@@ -1,0 +1,5 @@
+aiohttp
+pyyaml
+psutil
+python-dotenv
+colorlog
